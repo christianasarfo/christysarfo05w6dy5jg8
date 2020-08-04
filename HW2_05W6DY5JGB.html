@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY JAVASCRIPT ASSIGNMENT</title>
+        <style>
+            body{
+                font-size: 50px;
+                background-color: blueviolet;
+                text-align: left ;
+                color: white;
+            button{
+                font-size: 30px;
+                
+
+            }
+
+
+            }
+        </style> 
+    </head>
+    <body>
+        <button onclick="getDate()">GET DATE</button>
+        <p id="demo"></p> 
+
+        <script>
+            function getDate(){
+            var d= new Date();
+            document.getElementById("demo").innerHTML=d;
+            }
+        </script>
+    </body>
+</html>
